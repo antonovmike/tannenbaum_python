@@ -1,14 +1,9 @@
-x = 8
+x = 10
 y = 0
 top = 0
 i = 1
 print(" " * x, end = ""), print("A")
 while y < x:
-    if x%2 == 1:
-        print("|")
-        print("A")
-        print()
-
     while i <= x:
         for empty_space in range(x-i):
             print(" ", end = "")
